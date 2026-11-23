@@ -1,0 +1,57 @@
+{
+  "@context": "https://mlcommons.org/croissant/1.0",
+  "@type": "sc:Dataset",
+  "name": "SayWhatYouSee-Open3DFaceVid-Verifiability-Benchmark",
+  "version": "1.0.0",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "isBasedOn": "https://arxiv.org/abs/2603.16936",
+  "description": "Attribute verifiability benchmark, 3-pass human-verified gold splits (val_gold=192, test_gold=192, 1,266 claims), and Verifiability-Cleaned (C3) prompt interventions over Open3DFaceVid Part-1 (56,187 clips).",
+  "manifest_sha256": "c493484f4457ecbb2c6a1523ea811af6d887ca593d8bf6b9c99eada28b3d5cb9",
+  "distribution": [
+    {
+      "@type": "cr:FileObject",
+      "contentUrl": "splits/val_gold.json",
+      "name": "val_gold"
+    },
+    {
+      "@type": "cr:FileObject",
+      "contentUrl": "splits/test_gold.json",
+      "name": "test_gold"
+    },
+    {
+      "@type": "cr:FileObject",
+      "contentUrl": "splits/test_raw.json",
+      "name": "test_raw"
+    },
+    {
+      "@type": "cr:FileObject",
+      "contentUrl": "splits/train_C3.json",
+      "name": "train_C3"
+    },
+    {
+      "@type": "cr:FileObject",
+      "contentUrl": "splits/train_C_Type_Reg.json",
+      "name": "train_C_Type_Reg"
+    },
+    {
+      "@type": "cr:FileObject",
+      "contentUrl": "splits/train_C_Type_NoReg.json",
+      "name": "train_C_Type_NoReg"
+    },
+    {
+      "@type": "cr:FileObject",
+      "contentUrl": "splits/train_C_StratRand.json",
+      "name": "train_C_StratRand"
+    },
+    {
+      "@type": "cr:FileObject",
+      "contentUrl": "splits/train_C_Mask.json",
+      "name": "train_C_Mask"
+    },
+    {
+      "@type": "cr:FileObject",
+      "contentUrl": "pope_abstain_benchmark.json",
+      "name": "POPE-Abstain-734"
+    }
+  ]
+}

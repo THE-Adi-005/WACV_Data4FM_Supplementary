@@ -1,0 +1,4617 @@
+{
+  "split": "test_gold",
+  "count": 192,
+  "data": [
+    {
+      "video_id": "000001.mp4",
+      "manifest_sha256": "53675cff7d5ed56847777fb31311e2c7ac62a966a6c72aa16457d230e31df63e",
+      "raw_caption": "An elderly woman with a subtle happy expression.",
+      "clean_caption": "An elderly woman with a subtle happy expression.",
+      "human_judgments": {
+        "emotion": "Supported",
+        "age": "Supported",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "age": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "000002.mp4",
+      "manifest_sha256": "8a79dc0065f184a81ba53a967ea8b55a0e72d213d8bd37899b28c7e7fab38c57",
+      "raw_caption": "A female doctor speaks in an even rhythm, showing a subtle surprise expression between phrases.",
+      "clean_caption": "A woman speaks, showing a subtle surprise expression between phrases.",
+      "human_judgments": {
+        "emotion": "Supported",
+        "profession": "Not Verifiable",
+        "style": "Inferable (Name cue)",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          2.0,
+          3.0
+        ],
+        "style": [
+          0.75,
+          2.9
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "000004.mp4",
+      "manifest_sha256": "92ebc18be1618f8f41b49877ae9729b69a7ab886e0c797349e90f70e4ed84b53",
+      "raw_caption": "A gentleman sings while tapping a quiet beat, tone relaxed and tuneful.",
+      "clean_caption": "A gentleman sings relaxed and tuneful.",
+      "human_judgments": {
+        "style": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "000010.mp4",
+      "manifest_sha256": "c1e8d28a5788d5cf5b6472edf0b2d441727694a712bae309ae22816da57e40ad",
+      "raw_caption": "A young man continues a short monologue, keeping a very strong thrilled expression.",
+      "clean_caption": "A young man continues a short monologue.",
+      "human_judgments": {
+        "emotion": "Inferable (Name cue)",
+        "age": "Supported",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "age": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "000013.mp4",
+      "manifest_sha256": "44ccf39cec5fc6f637efd29581cb26a7496acde2a46ace4cf318a171de1b5afc",
+      "raw_caption": "A female athlete talks plainly, framing each thought with a intense motivation expression, without rushing any line.",
+      "clean_caption": "A woman speaks on camera.",
+      "human_judgments": {
+        "emotion": "Inferable (Name cue)",
+        "profession": "Inferable (Name cue)",
+        "style": "Contradicted",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "profession": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "000014.mp4",
+      "manifest_sha256": "cf0657a86925f7818b82172dfb43b3ce60ec5db5ba99c0f8c119dd886d50a575",
+      "raw_caption": "A woman speaks and shakes her head side-to-side largely.",
+      "clean_caption": "A woman speaks and shakes her head side-to-side largely.",
+      "human_judgments": {
+        "style": "Contradicted",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "000015.mp4",
+      "manifest_sha256": "514db6a6f10a9245d3d9b2b017521aa374366a4e4e96d22936c5f10a648fcd55",
+      "raw_caption": "A male professor reads a line aloud, featuring a very strong angry expression.",
+      "clean_caption": "A man reads a line aloud, featuring a very strong angry expression.",
+      "human_judgments": {
+        "emotion": "Supported",
+        "profession": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "000016.mp4",
+      "manifest_sha256": "ebab3d90b4935334882031f7f6519647919c780f77409c2f760dab9d81cd785f",
+      "raw_caption": "A female doctor introduces the next idea, keeping a low-key overwhelmed demeanor.",
+      "clean_caption": "A female doctor introduces the next idea.",
+      "human_judgments": {
+        "emotion": "Contradicted",
+        "profession": "Supported",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "profession": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "000026.mp4",
+      "manifest_sha256": "dab27c748e94de38ec38cce4e890983c49d99e3ba4a123195cf1e8147dce22df",
+      "raw_caption": "A young man speaks with a bright, wide-eyed look, pacing the words with care.",
+      "clean_caption": "A young man speaks.",
+      "human_judgments": {
+        "emotion": "Inferable (Name cue)",
+        "style": "Inferable (Name cue)",
+        "age": "Supported",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "style": [
+          0.0,
+          3.0
+        ],
+        "age": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "000027.mp4",
+      "manifest_sha256": "05d7643540d8f2ce720cde509eba38bf9111d473560c3467940d665f5a5886b3",
+      "raw_caption": "A male singer talks with upbeat delivery, keeping a very strong optimistic expression.",
+      "clean_caption": "A man speaks on camera.",
+      "human_judgments": {
+        "emotion": "Inferable (Name cue)",
+        "profession": "Not Verifiable",
+        "style": "Contradicted",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "000032.mp4",
+      "manifest_sha256": "7edd62f5b2955a1cfb89aafab32a86b571be9095c06b4c4d56732e7d55f04a7f",
+      "raw_caption": "A teen boy speaks in a matter-of-fact tone, carrying a plain amusement expression from sentence to sentence, with emphasis where it matters.",
+      "clean_caption": "A teen boy speaks, carrying a plain amusement expression from sentence to sentence.",
+      "human_judgments": {
+        "emotion": "Supported",
+        "age": "Supported",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "age": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "000033.mp4",
+      "manifest_sha256": "421830976d0df38be93df900fcd005402ec084e68e67d3aafed8c05d020a9a53",
+      "raw_caption": "A male office worker speaks with measured delivery, revealing a subtle joyful expression.",
+      "clean_caption": "A man speaks with measured delivery, revealing a subtle joyful expression.",
+      "human_judgments": {
+        "emotion": "Supported",
+        "style": "Supported",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "style": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "000038.mp4",
+      "manifest_sha256": "95d9bc91ae4cf569cf1e5b22596d30824b8f4c033f5bbcd3e9f86aa652e796a5",
+      "raw_caption": "A male teacher sings with a gentle crescendo across the phrase.",
+      "clean_caption": "A man speaks on camera.",
+      "human_judgments": {
+        "profession": "Not Verifiable",
+        "style": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "000039.mp4",
+      "manifest_sha256": "88806d487e02b3a1a5522a7d21cf1d5fbfda12e02557daca3471b7ce64657c74",
+      "raw_caption": "A male news anchor speaks like a guide, with a low-key anxious tone.",
+      "clean_caption": "A man speaks on camera.",
+      "human_judgments": {
+        "emotion": "Inferable (Name cue)",
+        "profession": "Inferable (Name cue)",
+        "style": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "profession": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "000042.mp4",
+      "manifest_sha256": "255cbad885f77f0c6f9ed1296e510f10c54ed09e67cdf46baa9bca39fc010140",
+      "raw_caption": "A man talks with precision, punctuating phrases with a intense warmth expression, while keeping tone even.",
+      "clean_caption": "A man speaks on camera.",
+      "human_judgments": {
+        "emotion": "Inferable (Name cue)",
+        "style": "Inferable (Name cue)",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "style": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "000044.mp4",
+      "manifest_sha256": "96bf20330697b16424844c732c120fa04ba95509268ed218b3db306824a55a5c",
+      "raw_caption": "A female scientist reveals a noticeable fascination expression with a gentle eye crinkle.",
+      "clean_caption": null,
+      "human_judgments": {
+        "emotion": "Supported",
+        "profession": "Inferable (Name cue)",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "profession": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "000045.mp4",
+      "manifest_sha256": "2a6cab0a3e6e7f0b7b3b846c5c3fae084c8e7454c8e0cbc12503df768fe116e5",
+      "raw_caption": "A male artist speaks as if briefing, holding a clear equanimity expression while choosing words, while selecting words carefully.",
+      "clean_caption": "A man speaks on camera.",
+      "human_judgments": {
+        "emotion": "Inferable (Name cue)",
+        "profession": "Not Verifiable",
+        "style": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "000048.mp4",
+      "manifest_sha256": "7d73f65d46a26b176e6d3dfe5e677a7d740f25b766650dab049ad875c638df15",
+      "raw_caption": "A male customer support agent cues the next idea, revealing a high elated demeanor.",
+      "clean_caption": "A man cues the next idea.",
+      "human_judgments": {
+        "emotion": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "000050.mp4",
+      "manifest_sha256": "ebf787e627f4cbae6570f109f44da31a19b921f530c2328a7e951bb657f45c60",
+      "raw_caption": "A teen boy speaks and shakes his head side-to-side largely.",
+      "clean_caption": "A teen boy speaks and shakes his head side-to-side largely.",
+      "human_judgments": {
+        "style": "Inferable (Name cue)",
+        "age": "Supported",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "style": [
+          0.0,
+          3.0
+        ],
+        "age": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "000051.mp4",
+      "manifest_sha256": "e668cee71505d7f870b463743c8504ea54ab2b62b3b43023bdc35bf9386280f9",
+      "raw_caption": "A male scientist talks under a medium happy expression.",
+      "clean_caption": "A man speaks on camera.",
+      "human_judgments": {
+        "emotion": "Inferable (Name cue)",
+        "profession": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "000054.mp4",
+      "manifest_sha256": "85d00969014cf551d94a1d9739d5e9c89c99856a0d8f5a0a2e987d84ff2a07e7",
+      "raw_caption": "A middle-aged man keeps the voice steady, presenting a vibrant unhappy expression as sentences unfold.",
+      "clean_caption": "A middle-aged man appears, presenting a vibrant unhappy expression as sentences unfold.",
+      "human_judgments": {
+        "emotion": "Supported",
+        "age": "Supported",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "age": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "000055.mp4",
+      "manifest_sha256": "02f7558840e0868f1173dac83ff137b65ee23aef7fe8fe248823983ded314a02",
+      "raw_caption": "A young man talks with head nodding resolutely to highlight the point.",
+      "clean_caption": "A young man talks with head nodding resolutely to highlight the point.",
+      "human_judgments": {
+        "style": "Inferable (Name cue)",
+        "age": "Supported",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "style": [
+          0.0,
+          3.0
+        ],
+        "age": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "000058.mp4",
+      "manifest_sha256": "6b7617dc598c8c84400abb7d82ed57dfb8991a8511dba26a3038e2adeff618a0",
+      "raw_caption": "An old woman speaks and shakes her head side-to-side largely.",
+      "clean_caption": "An old woman speaks and shakes her head side-to-side largely.",
+      "human_judgments": {
+        "style": "Inferable (Name cue)",
+        "age": "Supported",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "style": [
+          0.0,
+          3.0
+        ],
+        "age": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "000059.mp4",
+      "manifest_sha256": "9e6ff7f4ee1fab7a45789b9bed19027abcd20d9928dd2e7af28b147af1821787",
+      "raw_caption": "A female chef reveals a well-defined anticipation expression; cheekbones lightly pronounced.",
+      "clean_caption": "A woman reveals a expression; cheekbones lightly pronounced.",
+      "human_judgments": {
+        "emotion": "Not Verifiable",
+        "profession": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "000060.mp4",
+      "manifest_sha256": "de1c298ab8b477c19356dc89c5c17033bfc4c5389dfcf46ab6914bc8bafd1e02",
+      "raw_caption": "A teen boy speaks and shakes his head side-to-side largely.",
+      "clean_caption": "A teen boy speaks and shakes his head side-to-side largely.",
+      "human_judgments": {
+        "style": "Not Verifiable",
+        "age": "Supported",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "age": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "000110.mp4",
+      "manifest_sha256": "88b79389dd1e5bb2a3f50865ee568c9d50ffe100a3b04052d9709c791fee5b21",
+      "raw_caption": "A female teacher speaks in a warm tone, carrying a distinct enthusiasm expression from sentence to sentence, as the message unfolds.",
+      "clean_caption": "A woman speaks, as the message unfolds.",
+      "human_judgments": {
+        "emotion": "Contradicted",
+        "profession": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "000111.mp4",
+      "manifest_sha256": "0881b2bf38929b97f1911c4f55e00cdc86d3592ff451f16eccc548c63ec79f9e",
+      "raw_caption": "A male scientist pauses, then continues speaking with a very strong lonely expression.",
+      "clean_caption": "A man pauses, then continues speaking.",
+      "human_judgments": {
+        "emotion": "Contradicted",
+        "profession": "Contradicted",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "000112.mp4",
+      "manifest_sha256": "8b7279979f071d6a7314ec2b9dfa914ec6f9c21a84f93734539ba25500b18129",
+      "raw_caption": "A male customer support agent talks with gentle emphasis, showing a medium detached expression.",
+      "clean_caption": "A man speaks on camera.",
+      "human_judgments": {
+        "emotion": "Inferable (Name cue)",
+        "style": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "000113.mp4",
+      "manifest_sha256": "0dcc01d8f7c71ae9959194d3de675e876f1b94aa396562a63b362abe0d094679",
+      "raw_caption": "A male office worker speaks in a narrative tone, shaping the phrasing with a well-defined satisfaction expression, as the sentences flow naturally.",
+      "clean_caption": "A man speaks in a narrative tone, with a well-defined satisfaction expression.",
+      "human_judgments": {
+        "emotion": "Supported",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "000114.mp4",
+      "manifest_sha256": "02db26e1e7f5cdf29efc542fdc101cbd930b62c148b45579e5961a4810c1802f",
+      "raw_caption": "A male singer talks with upbeat delivery, keeping a amplified depressed expression.",
+      "clean_caption": null,
+      "human_judgments": {
+        "emotion": "Supported",
+        "profession": "Not Verifiable",
+        "style": "Contradicted",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "000118.mp4",
+      "manifest_sha256": "5ffa62e53d5322070f2c1447a85249eddade81314b0d3af92ec2009682dda164",
+      "raw_caption": "A lady talks with clear diction, showing a high impassive demeanor.",
+      "clean_caption": "A lady talks with clear diction, showing a high impassive demeanor.",
+      "human_judgments": {
+        "emotion": "Supported",
+        "style": "Supported",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "style": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "000121.mp4",
+      "manifest_sha256": "ccfdeeca0fe2d80b497aa152fd1c0cd1f2c1a842a9b52de916522901b72e20ab",
+      "raw_caption": "A teen boy speaks, issuing emphatic nods that align with the phrasing.",
+      "clean_caption": "A teen boy speaks, issuing emphatic nods that align with the phrasing.",
+      "human_judgments": {
+        "age": "Supported",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "age": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "000122.mp4",
+      "manifest_sha256": "d65754dea7c2d64f44def2f7074ef329b26d1ee4f0ee4d773666e704a5dc733d",
+      "raw_caption": "A female athlete enunciates carefully, carrying a low frustrated look.",
+      "clean_caption": "A woman enunciates carefully, carrying a low frustrated look.",
+      "human_judgments": {
+        "emotion": "Supported",
+        "profession": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "000124.mp4",
+      "manifest_sha256": "976a1152497b0dfe85ca233ca64b3a32030d1a3c2c582c5875a63a51138e51c3",
+      "raw_caption": "An old woman speaks in a conversational tone, wearing a noticeable tired expression.",
+      "clean_caption": "An old woman speaks in a conversational tone, wearing a noticeable tired expression.",
+      "human_judgments": {
+        "emotion": "Supported",
+        "age": "Supported",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "age": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "000125.mp4",
+      "manifest_sha256": "fcfd1ed8bebdeb679e9f3f018a0ffe05e8d7d09a0756f23d0ccb1c197a9c248c",
+      "raw_caption": "A female chef talks freely, keeping a steady cheerful expression throughout, with brief pauses for emphasis.",
+      "clean_caption": "A female chef talks, keeping a steady cheerful expression throughout.",
+      "human_judgments": {
+        "emotion": "Supported",
+        "profession": "Supported",
+        "style": "Inferable (Name cue)",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "profession": [
+          0.0,
+          3.0
+        ],
+        "style": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "000130.mp4",
+      "manifest_sha256": "34818ee4ba747dd435da95fa9eda3aae71319ee828a2f7b34f83dae163e6ee83",
+      "raw_caption": "A female doctor states the key line, under a subtle angry expression.",
+      "clean_caption": "A female doctor states the key line, under a subtle angry expression.",
+      "human_judgments": {
+        "emotion": "Supported",
+        "profession": "Supported",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "profession": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "000131.mp4",
+      "manifest_sha256": "051145af3fe43aa372ce9c3be2b9dc6a14f9f40aafbdfa6270ac22fcbbb5357c",
+      "raw_caption": "A boy speaks while pausing thoughtfully, featuring a soft drive expression as words unfold, and keeping diction clear.",
+      "clean_caption": "A boy speaks, and keeping.",
+      "human_judgments": {
+        "emotion": "Contradicted",
+        "style": "Inferable (Name cue)",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "style": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "000134.mp4",
+      "manifest_sha256": "ec8df4b5cb325750587396e84c6c97215805e290bb24d3b399703f520c34f8a9",
+      "raw_caption": "A man shows a moderate happiness expression; cheeks slightly lifted and brows relaxed.",
+      "clean_caption": "A man shows a moderate happiness expression; cheeks slightly lifted and brows relaxed.",
+      "human_judgments": {
+        "emotion": "Supported",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "000145.mp4",
+      "manifest_sha256": "cf3c9b60218828cdc4ee7f4f27625ff46967e41957df1aa68c4e8dda57dfb45d",
+      "raw_caption": "An elderly man speaks as if presenting, marked by a slight irritated demeanor.",
+      "clean_caption": "An elderly man speaks, marked by a slight irritated demeanor.",
+      "human_judgments": {
+        "emotion": "Supported",
+        "style": "Contradicted",
+        "age": "Supported",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "age": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "000148.mp4",
+      "manifest_sha256": "d4aca004552734f6045578552a38b52e1b2c54682d4e8339589b428f1a47ec56",
+      "raw_caption": "A female teacher talks with emphasis, holding a pronounced inspiration expression while choosing words, while keeping tone even.",
+      "clean_caption": "A woman speaks on camera.",
+      "human_judgments": {
+        "emotion": "Contradicted",
+        "profession": "Not Verifiable",
+        "style": "Inferable (Name cue)",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "style": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "000150.mp4",
+      "manifest_sha256": "35e47a43fb46707af39290957e75aad41989f8fb828a1c1ddde2069e9b097a3e",
+      "raw_caption": "A female office worker begins the thought, with a noticeable enthusiastic expression.",
+      "clean_caption": "A woman begins the thought, with a noticeable enthusiastic expression.",
+      "human_judgments": {
+        "emotion": "Supported",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "000152.mp4",
+      "manifest_sha256": "2457b4bff8fc3cd463599a251522d7e6cf8984274ba7847c8938e10d1aa846e8",
+      "raw_caption": "A female engineer speaks with measured diction, maintaining a well-defined grin expression.",
+      "clean_caption": "A woman speaks with measured, maintaining a well-defined grin expression.",
+      "human_judgments": {
+        "emotion": "Supported",
+        "profession": "Not Verifiable",
+        "style": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "000153.mp4",
+      "manifest_sha256": "00c0b10f0070002bf8f31da376b46530c5d273106bd25004be4aff2e54e641a3",
+      "raw_caption": "An elderly man talks on, head lifting and dropping in decisive nods.",
+      "clean_caption": "An elderly man talks on, head lifting and dropping in decisive nods.",
+      "human_judgments": {
+        "style": "Contradicted",
+        "age": "Supported",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "age": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "000160.mp4",
+      "manifest_sha256": "f70a9d7ce959ea4955677ff87afbac9d0cb40a16cdbacd59ed72f4a789930290",
+      "raw_caption": "A female chef speaks in a calm rhythm, under a low disappointed demeanor.",
+      "clean_caption": "A woman speaks, under a low disappointed demeanor.",
+      "human_judgments": {
+        "emotion": "Supported",
+        "profession": "Not Verifiable",
+        "style": "Inferable (Name cue)",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "style": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "000164.mp4",
+      "manifest_sha256": "ccfb36030a68d0e9b330862c45da8f3e26ca2c9411916ef2a75dccf3895d1636",
+      "raw_caption": "A female interviewer talks with lively delivery, framed by a low-key hopeless expression.",
+      "clean_caption": "A woman speaks on camera.",
+      "human_judgments": {
+        "emotion": "Contradicted",
+        "profession": "Not Verifiable",
+        "style": "Inferable (Name cue)",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "style": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "000167.mp4",
+      "manifest_sha256": "74b96d06f5a9ed4278b37c472de630d5ca59cc2e11093687e6d8b6a002a074ee",
+      "raw_caption": "A female professor talks with a crooked mouth, one corner lifted as she keeps speaking.",
+      "clean_caption": "A woman talks with a crooked mouth, one corner lifted as she keeps speaking.",
+      "human_judgments": {
+        "profession": "Not Verifiable",
+        "style": "Contradicted",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "000946.mp4",
+      "manifest_sha256": "c5b23bc2f0f372a798bb2c35e64f1fbef65b17e1eb75039f29f2ec9c332a56b6",
+      "raw_caption": "A male professor speaks as if briefing, presenting a amplified fearful expression in every line, and keeping diction clear.",
+      "clean_caption": "A man speaks, and keeping.",
+      "human_judgments": {
+        "emotion": "Inferable (Name cue)",
+        "profession": "Not Verifiable",
+        "style": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "001040.mp4",
+      "manifest_sha256": "0094a1fdc6b5273800bf413d952a8cc1b537ebd1019fa9eeef6c2d0920b7cba5",
+      "raw_caption": "A male vlogger talks naturally, under a slight fearful expression.",
+      "clean_caption": "A man speaks on camera.",
+      "human_judgments": {
+        "emotion": "Not Verifiable",
+        "profession": "Contradicted",
+        "style": "Inferable (Name cue)",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "style": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "001266.mp4",
+      "manifest_sha256": "f2238f0311eaa4ccb0dbe2d076c5b13c22380d25f0b48803d7ead6521589530a",
+      "raw_caption": "A female gamer speaks at a steady pace, with a evident disappointment expression steady on the face, while keeping tone even.",
+      "clean_caption": "A woman speaks on camera.",
+      "human_judgments": {
+        "emotion": "Inferable (Name cue)",
+        "profession": "Inferable (Name cue)",
+        "style": "Contradicted",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "profession": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "001681.mp4",
+      "manifest_sha256": "99c897d80a63462da3e33bdf9d28cdee46cce536940e5a8901dd0b488378c8b8",
+      "raw_caption": "A female gamer speaks with a weak fear tone.",
+      "clean_caption": "A woman speaks on camera.",
+      "human_judgments": {
+        "emotion": "Not Verifiable",
+        "profession": "Inferable (Name cue)",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "profession": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "001793.mp4",
+      "manifest_sha256": "baebc4f6b937363860991bb16924287020400fd752f66b8436cc251dd1201b38",
+      "raw_caption": "An old woman talks in a composed manner, showing a low-key love expression between phrases, as the delivery remains composed.",
+      "clean_caption": "An old woman talks.",
+      "human_judgments": {
+        "emotion": "Inferable (Name cue)",
+        "style": "Inferable (Name cue)",
+        "age": "Supported",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "style": [
+          0.0,
+          3.0
+        ],
+        "age": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "002315.mp4",
+      "manifest_sha256": "78c79fd8b0d9ba9b434066ee83b812c8974baec64427b14ebe689f40e2344dc3",
+      "raw_caption": "A girl speaks quickly but clearly, letting a moderate disappointment expression shape the delivery, while selecting words carefully.",
+      "clean_caption": "A girl speaks, letting a moderate disappointment expression shape the delivery.",
+      "human_judgments": {
+        "emotion": "Supported",
+        "style": "Inferable (Name cue)",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "style": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "002407.mp4",
+      "manifest_sha256": "86030b6300c1edd8a6d6e24ea4172c617b15207425f4e6982fc148d791c104e1",
+      "raw_caption": "A male gamer is showing a medium disgust demeanor.",
+      "clean_caption": "A man appears on camera.",
+      "human_judgments": {
+        "emotion": "Contradicted",
+        "profession": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "003331.mp4",
+      "manifest_sha256": "4a832828b7ffb208f029cc1ee05ca2624db6de3ac8e2f107f4818eb88b14dab9",
+      "raw_caption": "A female interviewer talks on, nodding sharply to signal certainty.",
+      "clean_caption": "A woman talks on, nodding sharply to signal certainty.",
+      "human_judgments": {
+        "profession": "Inferable (Name cue)",
+        "style": "Inferable (Name cue)",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "profession": [
+          0.0,
+          3.0
+        ],
+        "style": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "003636.mp4",
+      "manifest_sha256": "b1ab80dfa0d3a61ed957d94f6341ec1c49a4b2c59c6715bb1cfdf904bdbe2af6",
+      "raw_caption": "A middle-aged woman keeping a neutral disgust look.",
+      "clean_caption": "A woman appears on camera.",
+      "human_judgments": {
+        "emotion": "Not Verifiable",
+        "age": "Inferable (Name cue)",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "age": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "003908.mp4",
+      "manifest_sha256": "a5a765a7200593fcd85a5d3e9a8cc652e3145d1690e4917c54ec247c2c2f91fd",
+      "raw_caption": "A boy continues speaking with a subtle surprise expression, words flowing naturally.",
+      "clean_caption": "A boy continues speaking, words flowing naturally.",
+      "human_judgments": {
+        "emotion": "Contradicted",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "004068.mp4",
+      "manifest_sha256": "c958d3a4d3e61e4218c71f7e93abc1597141b81a79b1ea0304ffc2e4859fcb27",
+      "raw_caption": "A girl talks fluidly, a subtle surprise expression shaping the delivery.",
+      "clean_caption": "A girl talks, a subtle surprise expression shaping the delivery.",
+      "human_judgments": {
+        "emotion": "Supported",
+        "style": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "004458.mp4",
+      "manifest_sha256": "aca1821d4f8517b2dfd325886fe1350fdf2402d73e823de78509e24714c22ca4",
+      "raw_caption": "A male doctor showing a amplified disgust expression.",
+      "clean_caption": "A man appears on camera.",
+      "human_judgments": {
+        "emotion": "Contradicted",
+        "profession": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "004488.mp4",
+      "manifest_sha256": "fc1f4222d99aa369d6718d312b26a268e510a2b27544358db32633fb9aa51da7",
+      "raw_caption": "An elderly woman reveals a distinct admiration expression with a gentle eye crinkle.",
+      "clean_caption": "An elderly woman reveals a expression with a gentle eye crinkle.",
+      "human_judgments": {
+        "emotion": "Inferable (Name cue)",
+        "age": "Supported",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "age": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "005430.mp4",
+      "manifest_sha256": "cc7c3cfe49db5b769b22fd559376d51c7416d165c5daa339b8af28668ff364e6",
+      "raw_caption": "A female engineer adds a voice carrying a subtle disgust tone.",
+      "clean_caption": "A woman adds a.",
+      "human_judgments": {
+        "emotion": "Contradicted",
+        "profession": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "005464.mp4",
+      "manifest_sha256": "97ed49f4d125b353c0aea6e4d3236154f4f1f23d5797218b916aa20e88c17a7c",
+      "raw_caption": "A male engineer speaks fluently, with a reserved anticipation expression steady on the face, while keeping tone even.",
+      "clean_caption": "A man speaks on camera.",
+      "human_judgments": {
+        "emotion": "Not Verifiable",
+        "profession": "Not Verifiable",
+        "style": "Inferable (Name cue)",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "style": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "005508.mp4",
+      "manifest_sha256": "28c0e8dabb90fd32486a653c36b3368ef19fb12caafed304b5bd0172d1fb0118",
+      "raw_caption": "A teen girl talks as if teaching, showing a clear disappointment expression between phrases, without rushing any line.",
+      "clean_caption": "A girl talks as if teaching.",
+      "human_judgments": {
+        "emotion": "Inferable (Name cue)",
+        "style": "Not Verifiable",
+        "age": "Inferable (Name cue)",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "age": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "005766.mp4",
+      "manifest_sha256": "7ee7408c1296bf3ada237518956713a3a01761077c4cdadb8f37990b5ed3a2bd",
+      "raw_caption": "A male news anchor talks in a warm cadence, keeping a low-key fearful expression.",
+      "clean_caption": "A man speaks on camera.",
+      "human_judgments": {
+        "emotion": "Not Verifiable",
+        "profession": "Inferable (Name cue)",
+        "style": "Inferable (Name cue)",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "profession": [
+          0.0,
+          3.0
+        ],
+        "style": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "006962.mp4",
+      "manifest_sha256": "ca96b64be5c4ce1a1a89bc840980172f1120b89707ed286884618e73a645fec9",
+      "raw_caption": "A male office worker maintaining a moderate fear expression.",
+      "clean_caption": "A man appears on camera.",
+      "human_judgments": {
+        "emotion": "Contradicted",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "007140.mp4",
+      "manifest_sha256": "d36d007eed1a5273d6fb07871fc82b2cc87e6cb61a091e3a5ec127d4facb2fd2",
+      "raw_caption": "An elderly woman holding a medium surprise expression.",
+      "clean_caption": "An elderly woman appears on camera.",
+      "human_judgments": {
+        "emotion": "Inferable (Name cue)",
+        "age": "Supported",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "age": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "007372.mp4",
+      "manifest_sha256": "082b7d59c689f7784d86ed94f904aaa9df6de7c20526e05c5779363722f063d8",
+      "raw_caption": "A male athlete talks with a gentle pace, shaping the phrasing with a evident caring expression, as the voice stays steady.",
+      "clean_caption": "A male athlete talks.",
+      "human_judgments": {
+        "emotion": "Not Verifiable",
+        "profession": "Supported",
+        "style": "Inferable (Name cue)",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "profession": [
+          0.0,
+          3.0
+        ],
+        "style": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "008703.mp4",
+      "manifest_sha256": "b40f6d4596ce12e2657ac2c242b295ac42e1a1c373c2840c2cc3fafb11a7c687",
+      "raw_caption": "A male presenter talks with solid, repetitive nods as he stresses the point.",
+      "clean_caption": "A man talks, repetitive nods as he stresses the point.",
+      "human_judgments": {
+        "profession": "Inferable (Name cue)",
+        "style": "Inferable (Name cue)",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "profession": [
+          0.0,
+          3.0
+        ],
+        "style": [
+          1.0,
+          2.5
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "009884.mp4",
+      "manifest_sha256": "f5cae59db8ceb6d6c2b47afccae6e8bf6aa0862f43b0a0bc0d7017fc06fd1963",
+      "raw_caption": "A male scientist speaks in fuller sentences, punctuating phrases with a understated anticipation expression, while keeping tone even.",
+      "clean_caption": "A man speaks on camera.",
+      "human_judgments": {
+        "emotion": "Contradicted",
+        "profession": "Not Verifiable",
+        "style": "Inferable (Name cue)",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "style": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "011281.mp4",
+      "manifest_sha256": "91986702bf9dd1474b52dbb368c338768ca96d882e223d1eb0eb924c58d2be29",
+      "raw_caption": "A young man speaks, nodding hard in a clear rhythm from start to finish.",
+      "clean_caption": "A young man speaks, nodding hard in a clear rhythm from start to finish.",
+      "human_judgments": {
+        "age": "Supported",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "age": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "011294.mp4",
+      "manifest_sha256": "ae8661c603b4aa9994db7c70e7dcbfb53279417ce13dd995800b758d7cfd2c3f",
+      "raw_caption": "A female news anchor reveals a distinct anticipation expression; cheekbones lightly pronounced.",
+      "clean_caption": "A woman reveals a expression; cheekbones lightly pronounced.",
+      "human_judgments": {
+        "emotion": "Contradicted",
+        "profession": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "011736.mp4",
+      "manifest_sha256": "8ca9fcf537eb69e94fb4ae63c253b868d0765b509e828f0c3a0216b0cbbc092e",
+      "raw_caption": "A female professor talks plainly, holding a slight anticipation expression while choosing words, while keeping tone even.",
+      "clean_caption": "A woman talks plainly.",
+      "human_judgments": {
+        "emotion": "Contradicted",
+        "profession": "Not Verifiable",
+        "style": "Supported",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "style": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "012100.mp4",
+      "manifest_sha256": "1da1aae618419a269a4bab4f9eb923a128b937385dbe74b12e8dbe5bddf93200",
+      "raw_caption": "A female news anchor introduces the next idea, keeping a noticeable fearful demeanor.",
+      "clean_caption": "A woman introduces the next idea.",
+      "human_judgments": {
+        "emotion": "Not Verifiable",
+        "profession": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "012203.mp4",
+      "manifest_sha256": "28d91b1b9bf5c146da127f29e070577f909baed3c46bc0f35707836ddd43f2bb",
+      "raw_caption": "A young woman talks fluidly, featuring a recognizable surprised expression as words unfold, without rushing any line.",
+      "clean_caption": "A young woman talks.",
+      "human_judgments": {
+        "emotion": "Contradicted",
+        "style": "Not Verifiable",
+        "age": "Supported",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "age": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "012239.mp4",
+      "manifest_sha256": "04d5cf123855c0cbe2aac97d01bb829bfcf5372ddb603ec14af100a146555bdd",
+      "raw_caption": "A gentleman shows a slight optimism expression, nasolabial lines soft and natural.",
+      "clean_caption": "A gentleman shows a slight optimism expression, nasolabial lines soft and natural.",
+      "human_judgments": {
+        "emotion": "Supported",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "013450.mp4",
+      "manifest_sha256": "d1e5ec804e386089e9510c176ede4846c20be7718600ea95a0dfd1e97c0cc7a7",
+      "raw_caption": "A male professor speaks with measured diction, maintaining a subtle surprise expression.",
+      "clean_caption": "A man speaks with measured.",
+      "human_judgments": {
+        "emotion": "Inferable (Name cue)",
+        "profession": "Not Verifiable",
+        "style": "Inferable (Name cue)",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "style": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "014032.mp4",
+      "manifest_sha256": "406e787ad7eff22d587e1908cb37fb54c9d39caf2aadd51beb531a4ed1ecdb80",
+      "raw_caption": "A male vlogger speaks in short bursts, a vivid disappointment expression steady on the face.",
+      "clean_caption": "A man speaks on camera.",
+      "human_judgments": {
+        "emotion": "Contradicted",
+        "profession": "Not Verifiable",
+        "style": "Inferable (Name cue)",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "style": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "015023.mp4",
+      "manifest_sha256": "3db6b3328ac4d9ae9d45f7c68450eafa20f9b8cb3ac9f223580fec5079eff892",
+      "raw_caption": "A female news anchor speaks with lips curling into a bright smile between phrases.",
+      "clean_caption": "A woman speaks with lips curling into a bright smile between phrases.",
+      "human_judgments": {
+        "profession": "Not Verifiable",
+        "style": "Inferable (Name cue)",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "style": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "015803.mp4",
+      "manifest_sha256": "12fbe452a5700287aca4310752ed17405a6b4afc439635c804221c2db3b82792",
+      "raw_caption": "A female vlogger talks in a higher register, carrying a evident joyful expression from sentence to sentence, and pausing briefly to breathe.",
+      "clean_caption": "A woman speaks on camera.",
+      "human_judgments": {
+        "emotion": "Inferable (Name cue)",
+        "profession": "Not Verifiable",
+        "style": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "017699.mp4",
+      "manifest_sha256": "ac208c8918a18754ae6c72d843f1fbaf7d7d18ae25e7024174a4d8234c9dfba3",
+      "raw_caption": "A teen boy reveals a low-key caring expression; cheekbones lightly pronounced.",
+      "clean_caption": "A boy reveals a expression; cheekbones lightly pronounced.",
+      "human_judgments": {
+        "emotion": "Contradicted",
+        "age": "Contradicted",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "017893.mp4",
+      "manifest_sha256": "196b0ce1f851a5867d4f82c2bca96d5763b9ca86e5e7b361fa4624b13a82c6e5",
+      "raw_caption": "A male athlete articulates clearly, sustaining a amplified fearful expression.",
+      "clean_caption": "A man articulates clearly.",
+      "human_judgments": {
+        "emotion": "Contradicted",
+        "profession": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "017981.mp4",
+      "manifest_sha256": "3b978620311656d8a77a0f364cc62e57773f996802c310b52b5114d29be2a0ad",
+      "raw_caption": "A male singer outlines a point, with a high joyful expression.",
+      "clean_caption": "A man outlines a point.",
+      "human_judgments": {
+        "emotion": "Inferable (Name cue)",
+        "profession": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "018612.mp4",
+      "manifest_sha256": "88e656af69de4ee8357998fe9803ea9394998ab0bcf6b728a43f12dc5cb59151",
+      "raw_caption": "A male student reads a line aloud, featuring a slight fearful expression.",
+      "clean_caption": "A man reads a line aloud.",
+      "human_judgments": {
+        "emotion": "Not Verifiable",
+        "profession": "Inferable (Name cue)",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "profession": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "018842.mp4",
+      "manifest_sha256": "e83e303948f77378bc5404394bb0d7e4917c22cdba8515be8664b96b2392d408",
+      "raw_caption": "An elderly man under a low disgust expression.",
+      "clean_caption": "An elderly man appears on camera.",
+      "human_judgments": {
+        "emotion": "Not Verifiable",
+        "age": "Supported",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "age": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "018959.mp4",
+      "manifest_sha256": "a7cbbfab941904648b12306136fd44f3440a5e0d87cbcafcbef6196f811ef398",
+      "raw_caption": "A male doctor speaks fluidly, displaying a faint joyful expression from start to finish.",
+      "clean_caption": "A male doctor speaks, displaying a faint joyful expression from start to finish.",
+      "human_judgments": {
+        "emotion": "Supported",
+        "profession": "Supported",
+        "style": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "profession": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "019112.mp4",
+      "manifest_sha256": "3886f3c1841640b59424cc709a2bf4e4feaed606ba69d1968422fa22b2d9e35f",
+      "raw_caption": "A male singer shows a intense optimism expression, nasolabial lines soft and natural.",
+      "clean_caption": "A man appears on camera, nasolabial lines soft and natural.",
+      "human_judgments": {
+        "emotion": "Contradicted",
+        "profession": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "019193.mp4",
+      "manifest_sha256": "c284d5dfd3034e9a8f9dbcd493a3d9c2a278c40c9751217d3581c5e39ba05824",
+      "raw_caption": "A male scientist continues speaking, presenting a high-energy gratitude expression in every line, while keeping tone even.",
+      "clean_caption": "A man continues speaking.",
+      "human_judgments": {
+        "emotion": "Contradicted",
+        "profession": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "019508.mp4",
+      "manifest_sha256": "7c81fadbe6507a937e39129c832f8ed89ad741900759f17d7dac1ea6f402f369",
+      "raw_caption": "A lady speaks while pausing thoughtfully, letting a moderate disappointment expression shape the delivery, while selecting words carefully.",
+      "clean_caption": "A woman speaks on camera.",
+      "human_judgments": {
+        "emotion": "Inferable (Name cue)",
+        "style": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "020149.mp4",
+      "manifest_sha256": "3e36bbec04bd39b738b330c7cadb908c04af9b562816f31e9b3d91949233a875",
+      "raw_caption": "A female vlogger sings a short verse, voice warm and steady.",
+      "clean_caption": "A woman speaks on camera.",
+      "human_judgments": {
+        "profession": "Not Verifiable",
+        "style": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "020755.mp4",
+      "manifest_sha256": "473885a9baa9164a9ca5632ae705a25384d4825f34aa5987db8268794f519df0",
+      "raw_caption": "A female news anchor reveals a distinct anticipation expression; cheekbones lightly pronounced.",
+      "clean_caption": "A woman reveals a expression; cheekbones lightly pronounced.",
+      "human_judgments": {
+        "emotion": "Not Verifiable",
+        "profession": "Inferable (Name cue)",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "profession": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "020882.mp4",
+      "manifest_sha256": "fdd161d55dd5b1a130fc593213468482c05540142943551c3cf57a22f05a84b6",
+      "raw_caption": "An elderly man under a low disgust expression.",
+      "clean_caption": "A man appears on camera.",
+      "human_judgments": {
+        "emotion": "Not Verifiable",
+        "age": "Inferable (Name cue)",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "age": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "020902.mp4",
+      "manifest_sha256": "df6d6335a6ad24d4c189e2fd7c653d8231d51ee06bc33695641eb78f1fb64d9d",
+      "raw_caption": "A male chef talks with measured delivery, presenting a subtle disgust expression in every line, and pausing briefly to breathe.",
+      "clean_caption": "A male chef talks.",
+      "human_judgments": {
+        "emotion": "Contradicted",
+        "profession": "Supported",
+        "style": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "profession": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "021113.mp4",
+      "manifest_sha256": "f73a59d94988b7448f534d8a5a2f236aeb0ceef93dfef3313f64f9f034462fb4",
+      "raw_caption": "A male chef pauses, then continues speaking with a low-key fearful expression.",
+      "clean_caption": "A man pauses, then continues speaking.",
+      "human_judgments": {
+        "emotion": "Contradicted",
+        "profession": "Contradicted",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "gender": [
+          0.5,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "022031.mp4",
+      "manifest_sha256": "0b5328981278e5b43ad76c41d55dbe242dc863499d049118ae7aa27422ea104b",
+      "raw_caption": "An elderly man talks on, nodding sharply to signal certainty.",
+      "clean_caption": "An elderly man talks on, nodding sharply to signal certainty.",
+      "human_judgments": {
+        "style": "Inferable (Name cue)",
+        "age": "Supported",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "style": [
+          0.0,
+          3.0
+        ],
+        "age": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "022246.mp4",
+      "manifest_sha256": "5d2251cd9ffd658c52e74df67947c9f4469ae8080ee5fc0ad594c5a7a0b52a4b",
+      "raw_caption": "A woman talks simply, keeping a exuberant fearful expression throughout, with emphasis where it matters.",
+      "clean_caption": "A woman speaks on camera.",
+      "human_judgments": {
+        "emotion": "Contradicted",
+        "style": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "022809.mp4",
+      "manifest_sha256": "673cd1cc6154be9e2db521b35d82d75ecc27be05c929e8adabd5fad655ee753c",
+      "raw_caption": "A female teacher talks on without hurry, carrying a subtle surprise expression from line to line.",
+      "clean_caption": "A woman speaks on camera.",
+      "human_judgments": {
+        "emotion": "Inferable (Name cue)",
+        "profession": "Not Verifiable",
+        "style": "Contradicted",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "022972.mp4",
+      "manifest_sha256": "d5d4d6c2b0bd1737131481e2237575992d313e25b1b5b19c8930a147e6866841",
+      "raw_caption": "A female gamer delivers a short line, marked by a neutral disgust expression.",
+      "clean_caption": "A woman delivers a short line.",
+      "human_judgments": {
+        "emotion": "Inferable (Name cue)",
+        "profession": "Inferable (Name cue)",
+        "style": "Supported",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "profession": [
+          0.0,
+          3.0
+        ],
+        "style": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "023447.mp4",
+      "manifest_sha256": "df7d6c1166545e52d9cf137638089ee7bfdd4bc210e86737e1a9fbb59e5f5888",
+      "raw_caption": "A man speaks with measured delivery, revealing a low fearful expression.",
+      "clean_caption": "A man speaks on camera.",
+      "human_judgments": {
+        "emotion": "Not Verifiable",
+        "style": "Inferable (Name cue)",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "style": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "024260.mp4",
+      "manifest_sha256": "0a7540fccb5a69523aad9d5d85691ce68150281c65e7fa126125138c5a93ffc6",
+      "raw_caption": "A female gamer continues speaking with a subtle surprise expression, words flowing naturally.",
+      "clean_caption": "A woman continues speaking, words flowing naturally.",
+      "human_judgments": {
+        "emotion": "Inferable (Name cue)",
+        "profession": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "024472.mp4",
+      "manifest_sha256": "5c4e25836902d9689a2c61a7d34f6d8372a984b5425c2c37a14d501ec1a71259",
+      "raw_caption": "A male chef talks fluidly, a soft disappointment expression shaping the delivery.",
+      "clean_caption": "A male chef talks, a soft disappointment expression shaping the delivery.",
+      "human_judgments": {
+        "emotion": "Supported",
+        "profession": "Supported",
+        "style": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "profession": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "025709.mp4",
+      "manifest_sha256": "933ce4d34e9230f8feb67b1082d2000850cb0f80429b68b377d68e4e131a61fa",
+      "raw_caption": "A female customer support agent talks in concise lines, presenting a faint anticipation expression in every line, while selecting words carefully.",
+      "clean_caption": "A woman speaks on camera.",
+      "human_judgments": {
+        "emotion": "Not Verifiable",
+        "style": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "025822.mp4",
+      "manifest_sha256": "4508a29ee578a55b44da84f4e58f2287bf7f94663b21a4bbae9ac48fe2e0154b",
+      "raw_caption": "A male scientist speaks softly, holding a subtle surprise expression while choosing words carefully.",
+      "clean_caption": "A man speaks on camera.",
+      "human_judgments": {
+        "emotion": "Contradicted",
+        "profession": "Not Verifiable",
+        "style": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "026779.mp4",
+      "manifest_sha256": "20865b5766b05a0a456cc811a5efa60264bd05026d6492bc236d34025d29cefa",
+      "raw_caption": "A female vlogger speaks with measured diction, maintaining a subtle surprise expression.",
+      "clean_caption": "A woman speaks with measured.",
+      "human_judgments": {
+        "emotion": "Inferable (Name cue)",
+        "profession": "Not Verifiable",
+        "style": "Inferable (Name cue)",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "style": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "027479.mp4",
+      "manifest_sha256": "61f73fb45bfcaea913efabddba235ee33fa02ce03024b8c6fb326dedb4f103f3",
+      "raw_caption": "A man speaks at a steady pace, letting a slight disgust expression shape the delivery, and pausing briefly to breathe.",
+      "clean_caption": "A man speaks at a steady pace, letting a slight disgust expression shape the delivery, and pausing briefly to breathe.",
+      "human_judgments": {
+        "emotion": "Supported",
+        "style": "Supported",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "style": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "028043.mp4",
+      "manifest_sha256": "fba2b24dbcd32a974acf1fa99274b67b9ffa14f0818b54696cd590b96a96e544",
+      "raw_caption": "An elderly woman speaks and shakes her head side-to-side largely.",
+      "clean_caption": "An elderly woman speaks and shakes her head side-to-side largely.",
+      "human_judgments": {
+        "style": "Supported",
+        "age": "Supported",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "style": [
+          0.0,
+          3.0
+        ],
+        "age": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "028710.mp4",
+      "manifest_sha256": "2dadf12422e71b6fd962bfbc947555c55ddd01f7a33962aa5ab68ff7bc12cd0b",
+      "raw_caption": "A female athlete speaks with precision, with a reserved anticipation expression steady on the face, while keeping tone even.",
+      "clean_caption": "A woman speaks on camera.",
+      "human_judgments": {
+        "emotion": "Not Verifiable",
+        "profession": "Not Verifiable",
+        "style": "Inferable (Name cue)",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "style": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "028844.mp4",
+      "manifest_sha256": "5971aee96ceb6405ea57b476573cbfdfd55bf2d47f3e3fb7952db36c70793206",
+      "raw_caption": "A man maintaining a high fear expression.",
+      "clean_caption": "A man maintaining a high fear expression.",
+      "human_judgments": {
+        "emotion": "Supported",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "030148.mp4",
+      "manifest_sha256": "eee6323d646c49c66add3b5104c79ad6889026a89a17498e2136101915ae22d0",
+      "raw_caption": "A male gamer talks in short beats, under a very strong fearful expression.",
+      "clean_caption": "A man speaks on camera.",
+      "human_judgments": {
+        "emotion": "Inferable (Name cue)",
+        "profession": "Inferable (Name cue)",
+        "style": "Inferable (Name cue)",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "profession": [
+          0.0,
+          3.0
+        ],
+        "style": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "030245.mp4",
+      "manifest_sha256": "54e6300f978079a8ffb171344db2868b262c32513ab87282187fd6dc8eee7d39",
+      "raw_caption": "A male singer talks naturally, under a amplified fearful expression.",
+      "clean_caption": "A man speaks on camera.",
+      "human_judgments": {
+        "emotion": "Contradicted",
+        "profession": "Not Verifiable",
+        "style": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "030489.mp4",
+      "manifest_sha256": "ad25c78dfc3f88c430f0a91ff11eb3995f8dc22fb22200d9879d85481ef88684",
+      "raw_caption": "A teen girl speaks conversationally, a heightened disappointment expression lingering throughout.",
+      "clean_caption": "A teen girl speaks.",
+      "human_judgments": {
+        "emotion": "Not Verifiable",
+        "style": "Inferable (Name cue)",
+        "age": "Supported",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "style": [
+          0.0,
+          3.0
+        ],
+        "age": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "032663.mp4",
+      "manifest_sha256": "f1c661b18c8caa5aeb274d1c7df55401e67adf493ee3dccaf38685049fdf4ca2",
+      "raw_caption": "A male singer keeps the voice steady, presenting a subtle surprise expression as sentences unfold.",
+      "clean_caption": "A male singer appears.",
+      "human_judgments": {
+        "emotion": "Not Verifiable",
+        "profession": "Supported",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "profession": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "033061.mp4",
+      "manifest_sha256": "661f4db97c3486f8e4548147495036b213b633219f040a351922f52e3e110542",
+      "raw_caption": "A male customer support agent talks freely, presenting a moderate disappointment expression in every line, while selecting words carefully.",
+      "clean_caption": "A man speaks on camera.",
+      "human_judgments": {
+        "emotion": "Not Verifiable",
+        "style": "Inferable (Name cue)",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "style": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "033532.mp4",
+      "manifest_sha256": "cf5540d8be5e440f0f4d43c856f49531f814292b5e5f5185d56b0c3f4e8b2659",
+      "raw_caption": "An old man shows a noticeable curiosity expression, nasolabial lines soft and natural.",
+      "clean_caption": "An old man appears on camera, nasolabial lines soft and natural.",
+      "human_judgments": {
+        "emotion": "Contradicted",
+        "age": "Supported",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "age": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "033839.mp4",
+      "manifest_sha256": "c3b72de9df7c4ad808cd0afd802cbb075b078890b36a9fd802ba8094f789d5fa",
+      "raw_caption": "A male teacher talks as if teaching, showing a steady amusement expression between phrases, with emphasis where it matters.",
+      "clean_caption": "A man talks as if teaching, showing a steady amusement expression between phrases.",
+      "human_judgments": {
+        "emotion": "Supported",
+        "profession": "Inferable (Name cue)",
+        "style": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "profession": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "034131.mp4",
+      "manifest_sha256": "e4baabc8d9bc7141415095634d6b6583bc871eb865b71c2b2c1efe33daff909b",
+      "raw_caption": "An old woman speaks and carrying a medium fear expression.",
+      "clean_caption": "An old woman speaks.",
+      "human_judgments": {
+        "emotion": "Not Verifiable",
+        "age": "Supported",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "age": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "034481.mp4",
+      "manifest_sha256": "cb74201702d4daa8b66af8493d8d53c97c2fcff5320a3f13166c716eea3b1d3d",
+      "raw_caption": "A young woman delivers a short statement, paired with a strong fearful look.",
+      "clean_caption": "A young woman delivers.",
+      "human_judgments": {
+        "emotion": "Contradicted",
+        "style": "Not Verifiable",
+        "age": "Supported",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "age": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "034837.mp4",
+      "manifest_sha256": "a15b5100ba3602ed7106226b82a373fb68597766c6f593a391d61f8fc0535d59",
+      "raw_caption": "A gentleman keeping a high disgust demeanor.",
+      "clean_caption": "A man appears on camera.",
+      "human_judgments": {
+        "emotion": "Inferable (Name cue)",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "034951.mp4",
+      "manifest_sha256": "3ae26193ba96c2558d918cd060d727a00f08629b6613b91a15983148d867a483",
+      "raw_caption": "A female student speaks fluidly, with a moderate joyful demeanor.",
+      "clean_caption": "A woman speaks, with a moderate joyful demeanor.",
+      "human_judgments": {
+        "emotion": "Supported",
+        "profession": "Not Verifiable",
+        "style": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "035140.mp4",
+      "manifest_sha256": "def1081f33cf50d12c5d82c70ca5771aa5fb8596ddd41c47600d438b1955590b",
+      "raw_caption": "A male doctor speaks like a teacher, marked by a evident fearful expression.",
+      "clean_caption": "A man speaks like A man.",
+      "human_judgments": {
+        "emotion": "Inferable (Name cue)",
+        "profession": "Contradicted",
+        "style": "Inferable (Name cue)",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "style": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "035523.mp4",
+      "manifest_sha256": "4c50cad98003185ae89dbd883e1002aedb1933787eb6a0b7a59551b7af3daa0e",
+      "raw_caption": "A girl speaks with consistent pacing, carrying a recognizable disappointment expression from sentence to sentence, without rushing any line.",
+      "clean_caption": "A girl speaks on camera.",
+      "human_judgments": {
+        "emotion": "Inferable (Name cue)",
+        "style": "Inferable (Name cue)",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "style": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "035909.mp4",
+      "manifest_sha256": "31d778eb647b31bc2a473d2b2e2ea30d85d7208954cfec1763b3ba58d3001543",
+      "raw_caption": "A young woman continues, head driving into decisive nods while speaking.",
+      "clean_caption": "A young woman continues, head driving into decisive nods while speaking.",
+      "human_judgments": {
+        "age": "Supported",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "age": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "036102.mp4",
+      "manifest_sha256": "f5022bd80e4326726a83d6820fdeb2a32aacf36a7cbf05b707b9a3fac3cb89a0",
+      "raw_caption": "A female news anchor carries a soft gratitude expression; eyelids calm and brow smooth.",
+      "clean_caption": "A woman appears on camera; eyelids calm and brow smooth.",
+      "human_judgments": {
+        "emotion": "Inferable (Name cue)",
+        "profession": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "036151.mp4",
+      "manifest_sha256": "e71b780224a6890ea9c1b8a46a58248b26155d3c977a1f354d76fcdf789e67ac",
+      "raw_caption": "A female gamer talks at length, keeping a strong fearful expression throughout, with emphasis where it matters.",
+      "clean_caption": "A woman speaks on camera.",
+      "human_judgments": {
+        "emotion": "Inferable (Name cue)",
+        "profession": "Not Verifiable",
+        "style": "Inferable (Name cue)",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "style": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "036284.mp4",
+      "manifest_sha256": "e202abc878d9daf52fe85370c652287c1e77296df7a5ecd46f905fd526837964",
+      "raw_caption": "A girl speaks with careful wording, holding a delicate admiration expression while choosing words, and keeping diction clear.",
+      "clean_caption": "A girl speaks, and keeping.",
+      "human_judgments": {
+        "emotion": "Contradicted",
+        "style": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "036306.mp4",
+      "manifest_sha256": "e0ecc7023fd6aa25ea408c7b997570779c45967cad92eb196ea6b204c68ceb77",
+      "raw_caption": "A female professor speaks at a steady pace, carrying a slight anticipation expression from sentence to sentence, without rushing any line.",
+      "clean_caption": "A woman speaks on camera.",
+      "human_judgments": {
+        "emotion": "Contradicted",
+        "profession": "Not Verifiable",
+        "style": "Inferable (Name cue)",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "style": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "036711.mp4",
+      "manifest_sha256": "5ff7dee3a3cef15a9a274daab4fb60fba123dade0926299d15ca5c38316f601b",
+      "raw_caption": "A female vlogger speaks in short phrases, maintaining a sideways pout between words.",
+      "clean_caption": "A woman speaks, maintaining a sideways pout between words.",
+      "human_judgments": {
+        "profession": "Not Verifiable",
+        "style": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "036869.mp4",
+      "manifest_sha256": "fce3124419a730f9b7da02214cde124027209e89457b70e67a509ea849286c3a",
+      "raw_caption": "A male athlete talks in a higher register, shaping the phrasing with a subtle anticipation expression, without rushing any line.",
+      "clean_caption": "A male athlete talks.",
+      "human_judgments": {
+        "emotion": "Contradicted",
+        "profession": "Supported",
+        "style": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "profession": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "037002.mp4",
+      "manifest_sha256": "f509890e07b9a4250df4b02dc59f41a6e4f4130a672148506aeed91cf3f45682",
+      "raw_caption": "A male athlete speaks conversationally, a subtle surprise expression lingering throughout.",
+      "clean_caption": "A man speaks on camera.",
+      "human_judgments": {
+        "emotion": "Contradicted",
+        "profession": "Not Verifiable",
+        "style": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "037392.mp4",
+      "manifest_sha256": "9c9fa05736db83d72a126da89aef9e244f92b7b227a93da20d115131e7db3b8e",
+      "raw_caption": "A female vlogger, the weak disgust tone evident.",
+      "clean_caption": "A woman, the tone evident.",
+      "human_judgments": {
+        "emotion": "Not Verifiable",
+        "profession": "Contradicted",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "037518.mp4",
+      "manifest_sha256": "976ebb94c28f2626744c1cf815ea759304a087b4e5f2da6984e01b11d8270ba3",
+      "raw_caption": "A female presenter talks as if teaching, framing each thought with a recognizable disappointment expression, while selecting words carefully.",
+      "clean_caption": "A woman talks as if teaching, framing each thought with a recognizable disappointment expression.",
+      "human_judgments": {
+        "emotion": "Supported",
+        "profession": "Not Verifiable",
+        "style": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "038576.mp4",
+      "manifest_sha256": "cf4efc376778d201309ece9722bc06981aacb9a68a6e5cc07606c50a8a2682e1",
+      "raw_caption": "A male artist talks steadily, maintaining a evident joyful expression.",
+      "clean_caption": "A man talks steadily.",
+      "human_judgments": {
+        "emotion": "Inferable (Name cue)",
+        "profession": "Not Verifiable",
+        "style": "Supported",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "style": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "038993.mp4",
+      "manifest_sha256": "92308c7913156df43fb79b4247aedd60ec9710677a59fb6b20dd521846b6fb04",
+      "raw_caption": "A female presenter speaks while pausing thoughtfully, punctuating phrases with a recognizable disappointment expression, while keeping tone even.",
+      "clean_caption": "A woman speaks while pausing thoughtfully, punctuating phrases.",
+      "human_judgments": {
+        "emotion": "Inferable (Name cue)",
+        "profession": "Not Verifiable",
+        "style": "Supported",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "style": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "039233.mp4",
+      "manifest_sha256": "b9cf84d81bfee6aae6a142ca95ba8f1c36f4e4047d045110bbe335cdaed7e439",
+      "raw_caption": "A man reveals a distinct anticipation expression; cheekbones lightly pronounced.",
+      "clean_caption": "A man reveals a expression; cheekbones lightly pronounced.",
+      "human_judgments": {
+        "emotion": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "039355.mp4",
+      "manifest_sha256": "930de5df967bf129d2fc1d0d7f538535388a619b7e541057c59a851a64a475e8",
+      "raw_caption": "A young woman speaks and shakes her head side-to-side largely.",
+      "clean_caption": "A young woman speaks and shakes her head side-to-side largely.",
+      "human_judgments": {
+        "style": "Inferable (Name cue)",
+        "age": "Supported",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "style": [
+          0.0,
+          3.0
+        ],
+        "age": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "039756.mp4",
+      "manifest_sha256": "a32e05550d00aa5fa74b4e176215c54bae3cda3cfbf9af01c49a1bb0fddd1cfe",
+      "raw_caption": "A female artist talks with precision, featuring a understated disgust expression as words unfold, with a consistent pace.",
+      "clean_caption": "A woman speaks on camera.",
+      "human_judgments": {
+        "emotion": "Contradicted",
+        "profession": "Not Verifiable",
+        "style": "Inferable (Name cue)",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "style": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "039867.mp4",
+      "manifest_sha256": "7c038949f2c98d52586f9c5cff7ee2cb37cf33df7e85f656d283cc15504352ee",
+      "raw_caption": "An elderly man speaks softly, framing each thought with a low-key admiration expression, as the delivery remains composed.",
+      "clean_caption": "An elderly man speaks.",
+      "human_judgments": {
+        "emotion": "Inferable (Name cue)",
+        "style": "Inferable (Name cue)",
+        "age": "Supported",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "style": [
+          0.0,
+          3.0
+        ],
+        "age": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "039944.mp4",
+      "manifest_sha256": "95379116c2100cba1417f77ce2b8bb2b65977f9e16574e14901bbe9025d1a694",
+      "raw_caption": "A female presenter talks as if teaching, framing each thought with a recognizable disappointment expression, while selecting words carefully.",
+      "clean_caption": "A woman talks as if teaching, framing each thought with a recognizable disappointment expression.",
+      "human_judgments": {
+        "emotion": "Supported",
+        "profession": "Not Verifiable",
+        "style": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "039986.mp4",
+      "manifest_sha256": "d3d48cf8279627e0717552c5a4af1195280d160554c157f704bfba18e9e120cd",
+      "raw_caption": "A female artist speaks in a low register, letting a heightened optimism expression shape the delivery, as the voice stays steady.",
+      "clean_caption": "A woman speaks, letting a heightened optimism expression shape the delivery.",
+      "human_judgments": {
+        "emotion": "Supported",
+        "profession": "Not Verifiable",
+        "style": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "040386.mp4",
+      "manifest_sha256": "3da88faaa49e7b1a6b59585cdcfe1ea1b34de3d0de8a8228169ad0c6cad968dd",
+      "raw_caption": "A male vlogger talks in a higher register, shaping the phrasing with a heightened optimism expression, with a consistent pace.",
+      "clean_caption": "A man speaks on camera.",
+      "human_judgments": {
+        "emotion": "Not Verifiable",
+        "profession": "Not Verifiable",
+        "style": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "gender": [
+          1.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "040790.mp4",
+      "manifest_sha256": "608bfd6d0d3d29a576db32bbe6f26fdcfbff0cdb9fd5320183d4a833d9a0344f",
+      "raw_caption": "A middle-aged man wears a sparkling joy expression, eyes soft and mouth corners gently raised.",
+      "clean_caption": "A middle-aged man wears a sparkling joy expression, eyes soft and mouth corners gently raised.",
+      "human_judgments": {
+        "emotion": "Supported",
+        "age": "Supported",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "age": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "040971.mp4",
+      "manifest_sha256": "8a012081aaf40f39bb3c9ef630c95fafea5cac3306eec02afc7e0f95f4c41d45",
+      "raw_caption": "A female office worker speaks conversationally, a reserved disappointment expression lingering throughout.",
+      "clean_caption": "A woman speaks, a reserved disappointment expression lingering throughout.",
+      "human_judgments": {
+        "emotion": "Supported",
+        "style": "Inferable (Name cue)",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "style": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "041181.mp4",
+      "manifest_sha256": "f06719017a07c762f1978ac02cf6c8fe7c6be96eaa7d31ba7e4abbdb0cc47dfa",
+      "raw_caption": "An old man speaks at length, punctuating phrases with a evident joyful expression, with a consistent pace.",
+      "clean_caption": "An old man speaks, with a evident joyful expression.",
+      "human_judgments": {
+        "emotion": "Supported",
+        "style": "Not Verifiable",
+        "age": "Supported",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "age": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "042710.mp4",
+      "manifest_sha256": "af808edbb893271e951123ae81ae83a7a7963c83a6d79dd8327bd4c483c4f3bc",
+      "raw_caption": "A male scientist maintaining a amplified fear expression.",
+      "clean_caption": "A man appears on camera.",
+      "human_judgments": {
+        "emotion": "Contradicted",
+        "profession": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "043103.mp4",
+      "manifest_sha256": "26e8175ff52056731a4f8f6cdedff9d2b9c81f941537f926945eb89f1858e036",
+      "raw_caption": "An old woman talks as if explaining, framing each thought with a reserved disgust expression, and pausing briefly to breathe.",
+      "clean_caption": "An old woman talks as if explaining, and pausing briefly to breathe.",
+      "human_judgments": {
+        "emotion": "Not Verifiable",
+        "style": "Supported",
+        "age": "Supported",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "style": [
+          0.0,
+          3.0
+        ],
+        "age": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "044340.mp4",
+      "manifest_sha256": "380597d977b31d1957fdca009e1ab5341d9d7f4bdb28490df1e88fc1b29dc45c",
+      "raw_caption": "A female student talks plainly, showing a understated anticipation expression between phrases, without rushing any line.",
+      "clean_caption": "A woman speaks on camera.",
+      "human_judgments": {
+        "emotion": "Inferable (Name cue)",
+        "profession": "Not Verifiable",
+        "style": "Contradicted",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "044446.mp4",
+      "manifest_sha256": "577a316bc66f49e3c1b9981d23a8d51caa98ee48dfd7db7e7574b018985a5f3d",
+      "raw_caption": "A female vlogger talks plainly, shaping the phrasing with a moderate caring expression, as the voice stays steady.",
+      "clean_caption": "A woman speaks on camera.",
+      "human_judgments": {
+        "emotion": "Inferable (Name cue)",
+        "profession": "Not Verifiable",
+        "style": "Inferable (Name cue)",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "style": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "044469.mp4",
+      "manifest_sha256": "634075974a4fa4afbbd96238e4492093105c4f27c3170050c7c00dba9bd27b8f",
+      "raw_caption": "A female presenter talks in concise lines, shaping the phrasing with a faint disgust expression, as the voice stays steady.",
+      "clean_caption": "A female presenter talks in concise lines, shaping the phrasing with a faint disgust expression, as the voice stays steady.",
+      "human_judgments": {
+        "emotion": "Supported",
+        "profession": "Supported",
+        "style": "Supported",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "profession": [
+          0.0,
+          3.0
+        ],
+        "style": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "045678.mp4",
+      "manifest_sha256": "85d39634977a0d783fb732291b262c0e177582eef794d3bf659a1eea83d37ce1",
+      "raw_caption": "A male singer reveals a sparkling anticipation expression; cheekbones lightly pronounced.",
+      "clean_caption": "A man reveals a expression; cheekbones lightly pronounced.",
+      "human_judgments": {
+        "emotion": "Contradicted",
+        "profession": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "045867.mp4",
+      "manifest_sha256": "4f69c89a11bb2f41ec31606480751e28263a0e0687f8e29494d9a1b472530533",
+      "raw_caption": "A man speaks as if briefing, shaping the phrasing with a exuberant fearful expression, as the delivery remains composed.",
+      "clean_caption": "A man speaks, with a exuberant fearful expression.",
+      "human_judgments": {
+        "emotion": "Supported",
+        "style": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "046138.mp4",
+      "manifest_sha256": "4a2eacc757032ff8fa812502953ba52ec93a5ec51409c868119881563eab3ff5",
+      "raw_caption": "A male presenter speaks at a steady pace, sustaining a recognizable caring expression without wavering, with a consistent pace.",
+      "clean_caption": "A man speaks on camera.",
+      "human_judgments": {
+        "emotion": "Inferable (Name cue)",
+        "profession": "Not Verifiable",
+        "style": "Inferable (Name cue)",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "style": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "046346.mp4",
+      "manifest_sha256": "2413f84b837c8d63bfcdf7ec48a46b06900a6a902a50a3f6692de5e03b957fcd",
+      "raw_caption": "A male customer support agent talks with bright energy, sustaining a faint fearful expression.",
+      "clean_caption": "A man speaks on camera.",
+      "human_judgments": {
+        "emotion": "Not Verifiable",
+        "style": "Inferable (Name cue)",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "style": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "046544.mp4",
+      "manifest_sha256": "5a328a37673e33e60d8fc2cd14e2c8fd988aeb4e402b44c48f0c32fe112cda00",
+      "raw_caption": "A female news anchor talks fluidly, a amplified disappointment expression shaping the delivery.",
+      "clean_caption": "A woman speaks on camera.",
+      "human_judgments": {
+        "emotion": "Inferable (Name cue)",
+        "profession": "Inferable (Name cue)",
+        "style": "Inferable (Name cue)",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "profession": [
+          0.0,
+          3.0
+        ],
+        "style": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "047064.mp4",
+      "manifest_sha256": "c717acfafe383b8d576cf0b8592e32fa9512e4458235a942dfc664cea20e9b71",
+      "raw_caption": "A male doctor speaks in an even rhythm, showing a subtle disappointment expression between phrases.",
+      "clean_caption": "A man speaks, showing a subtle disappointment expression between phrases.",
+      "human_judgments": {
+        "emotion": "Supported",
+        "profession": "Not Verifiable",
+        "style": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "047253.mp4",
+      "manifest_sha256": "6139020ae6d3da0c0faf04c92176e8e6ee1001e1d7498890759ed8ce5d307dc4",
+      "raw_caption": "A male scientist keeps the voice steady, presenting a subtle surprise expression as sentences unfold.",
+      "clean_caption": "A man appears, presenting a subtle surprise expression as sentences unfold.",
+      "human_judgments": {
+        "emotion": "Supported",
+        "profession": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "047255.mp4",
+      "manifest_sha256": "02c94a1482e36a6039427ce8900d58c773650a859297a8d74a73e2e45e13f827",
+      "raw_caption": "A woman speaks with feature a medium surprise demeanor.",
+      "clean_caption": "A woman speaks on camera.",
+      "human_judgments": {
+        "emotion": "Inferable (Name cue)",
+        "style": "Inferable (Name cue)",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "style": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "047501.mp4",
+      "manifest_sha256": "b5ea86d732dacf0f4e8246c8b023893b072ef3206b9af281422be32cf1bde393",
+      "raw_caption": "A female chef talks in maintaining a weak disgust expression.",
+      "clean_caption": "A woman speaks on camera.",
+      "human_judgments": {
+        "emotion": "Inferable (Name cue)",
+        "profession": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "048134.mp4",
+      "manifest_sha256": "c8ea9da8155d8d7fae4d319fb3f04bec8d8cd14f4b2cd7ca2bae6fbc64b2e2c7",
+      "raw_caption": "An elderly man talks fluidly, a amplified disappointment expression shaping the delivery.",
+      "clean_caption": "An elderly man talks.",
+      "human_judgments": {
+        "emotion": "Contradicted",
+        "style": "Not Verifiable",
+        "age": "Supported",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "age": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "048196.mp4",
+      "manifest_sha256": "043c62da0f7c183ff2d2d6287db9583e7b05b5111e91dc87bc7428d1d8f00d9d",
+      "raw_caption": "A female student carrying a neutral surprise expression.",
+      "clean_caption": "A woman appears on camera.",
+      "human_judgments": {
+        "emotion": "Contradicted",
+        "profession": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "049115.mp4",
+      "manifest_sha256": "f3d24470f60a4b397df8a5386d779234f501c51c1de520bd34361a2a3186b558",
+      "raw_caption": "A female engineer with a muted smile, words flowing in an even cadence.",
+      "clean_caption": "A woman with a muted smile, words flowing in an even cadence.",
+      "human_judgments": {
+        "profession": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "050241.mp4",
+      "manifest_sha256": "84adc35e6226d119577c373b147b296a62f2e25ed61b9e46f9a997b96f7e0983",
+      "raw_caption": "A woman talks fluidly, a soft disappointment expression shaping the delivery.",
+      "clean_caption": "A woman speaks on camera.",
+      "human_judgments": {
+        "emotion": "Inferable (Name cue)",
+        "style": "Inferable (Name cue)",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "style": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "050254.mp4",
+      "manifest_sha256": "d8bb1253173a41fabb8d7c0847ad408343358d94a4efdf569e631923fc9ea8a3",
+      "raw_caption": "A girl speaks with lips curling into a bright smile between phrases.",
+      "clean_caption": "A girl speaks with lips curling into a bright smile between phrases.",
+      "human_judgments": {
+        "style": "Inferable (Name cue)",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "style": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "050440.mp4",
+      "manifest_sha256": "c47bc61815c28c508063e6cd624c6a440fdef57aa07ff6b268a29146097cacf8",
+      "raw_caption": "A female engineer speaks with crisp enunciation, sustaining a distinct joy expression without wavering, as the message unfolds.",
+      "clean_caption": "A woman speaks with enunciation, as the message unfolds.",
+      "human_judgments": {
+        "emotion": "Inferable (Name cue)",
+        "profession": "Inferable (Name cue)",
+        "style": "Inferable (Name cue)",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "profession": [
+          0.0,
+          3.0
+        ],
+        "style": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "050962.mp4",
+      "manifest_sha256": "1214b131a3c56e861dfb864a080063814712de321b6ee629dadf7ae6af08cde2",
+      "raw_caption": "A man revealing a slight fear expression.",
+      "clean_caption": "A man appears on camera.",
+      "human_judgments": {
+        "emotion": "Inferable (Name cue)",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "051073.mp4",
+      "manifest_sha256": "3b02328e33c1e2a27e5816f78b8418212910c2f0af7d507b9022d1146871ee23",
+      "raw_caption": "A male scientist talks with measured breath, shaping the phrasing with a soft surprise expression, with brief pauses for emphasis.",
+      "clean_caption": "A man talks, with a soft surprise expression.",
+      "human_judgments": {
+        "emotion": "Supported",
+        "profession": "Not Verifiable",
+        "style": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "051138.mp4",
+      "manifest_sha256": "58650e2bd3735e2e745976a1d02b7b4d68331ca87775a9784282f15d59d63764",
+      "raw_caption": "An elderly man talks in a matter-of-fact way, shaping the phrasing with a subtle anticipation expression, without rushing any line.",
+      "clean_caption": "An elderly man talks.",
+      "human_judgments": {
+        "emotion": "Inferable (Name cue)",
+        "style": "Inferable (Name cue)",
+        "age": "Supported",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "style": [
+          0.0,
+          3.0
+        ],
+        "age": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "051362.mp4",
+      "manifest_sha256": "6105e55f76e6a96a44c260586058638db9e9a7c3d7f0074d8308f63e10a1f6ba",
+      "raw_caption": "A female office worker talks freely, shaping the phrasing with a bold fear expression, as the voice stays steady.",
+      "clean_caption": "A woman speaks on camera.",
+      "human_judgments": {
+        "emotion": "Contradicted",
+        "style": "Inferable (Name cue)",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "style": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "051744.mp4",
+      "manifest_sha256": "8a07687f14e118db7dda78953c282731efaf98d720dd8d4821c4b5df9a927012",
+      "raw_caption": "A female gamer shows a slight curiosity expression, nasolabial lines soft and natural.",
+      "clean_caption": "A woman appears on camera, nasolabial lines soft and natural.",
+      "human_judgments": {
+        "emotion": "Contradicted",
+        "profession": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "052472.mp4",
+      "manifest_sha256": "2f5fd9110fe983b363abcd85ec3e89f72965ad73a603c11d7c05771c54c79954",
+      "raw_caption": "A female engineer summarizes with a subtle surprise expression.",
+      "clean_caption": "A woman appears on camera.",
+      "human_judgments": {
+        "emotion": "Inferable (Name cue)",
+        "profession": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "052516.mp4",
+      "manifest_sha256": "f5e98943450257ddb8b0d285a2361361484af3ea17b5c2eaa986c225a0b0ca8d",
+      "raw_caption": "A young woman speaks with upbeat delivery, featuring a low-key joyful demeanor.",
+      "clean_caption": "A woman speaks, featuring a low-key joyful demeanor.",
+      "human_judgments": {
+        "emotion": "Supported",
+        "style": "Inferable (Name cue)",
+        "age": "Contradicted",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "style": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "052780.mp4",
+      "manifest_sha256": "d57b3346c1ce95bfc4ac98510be0f5287190ad4dbf972ec451e59765657d21fe",
+      "raw_caption": "A female singer introduces the next idea, keeping a strong joyful demeanor.",
+      "clean_caption": "A woman introduces the next idea, keeping a strong joyful demeanor.",
+      "human_judgments": {
+        "emotion": "Supported",
+        "profession": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "052901.mp4",
+      "manifest_sha256": "2f3a316b26202bfeffd8dc970f1c1e15ee2bba13a2c9fc1002ec02daf43e04e0",
+      "raw_caption": "A girl keeps the voice steady, presenting a recognizable disappointment expression as sentences unfold.",
+      "clean_caption": "A girl appears, presenting a recognizable disappointment expression as sentences unfold.",
+      "human_judgments": {
+        "emotion": "Supported",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "052964.mp4",
+      "manifest_sha256": "aa9d1c4a5893011c5e9f763fe6c7ea40a1c5f1353378aa6271ddfa61ea7b69b8",
+      "raw_caption": "A young man speaks with unwavering nods, delivery controlled and clear.",
+      "clean_caption": "A young man speaks with unwavering nods, delivery controlled and clear.",
+      "human_judgments": {
+        "style": "Contradicted",
+        "age": "Supported",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "age": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "053061.mp4",
+      "manifest_sha256": "9b06ad21359c39d28f90f2fb977784fa042bf809987ab7cba01f32fc56a2cecf",
+      "raw_caption": "A female student talks plainly, showing a understated anticipation expression between phrases, without rushing any line.",
+      "clean_caption": "A person speaks on camera.",
+      "human_judgments": {
+        "emotion": "Not Verifiable",
+        "profession": "Contradicted",
+        "style": "Not Verifiable",
+        "gender": "Contradicted"
+      },
+      "evidence_spans": {},
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "053148.mp4",
+      "manifest_sha256": "1dd5c403168aba9d38a3d5b2986eee603f536a2989456d8e761fbdb498c41351",
+      "raw_caption": "A teen girl speaks with showing a subtle fear demeanor.",
+      "clean_caption": "A girl speaks on camera.",
+      "human_judgments": {
+        "emotion": "Contradicted",
+        "style": "Contradicted",
+        "age": "Contradicted",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "053342.mp4",
+      "manifest_sha256": "c54927716b987e97d1d81e2f0df0713c02c200065fbd7d32044e52fc1920ae02",
+      "raw_caption": "A female vlogger talks in a composed manner, framing each thought with a distinct joy expression, as the sentences flow naturally.",
+      "clean_caption": "A woman speaks on camera.",
+      "human_judgments": {
+        "emotion": "Inferable (Name cue)",
+        "profession": "Contradicted",
+        "style": "Inferable (Name cue)",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "style": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "053657.mp4",
+      "manifest_sha256": "32424734057f2303b7d3a0548b2bbed0f3ba3159ba23da78a2301c2d52f74d9f",
+      "raw_caption": "A male office worker talks with a gentle pace, framing each thought with a high-energy gratitude expression, while keeping tone even.",
+      "clean_caption": "A man speaks on camera.",
+      "human_judgments": {
+        "emotion": "Contradicted",
+        "style": "Inferable (Name cue)",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "style": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "053757.mp4",
+      "manifest_sha256": "b24795abdf4757693aa32c2d26fb23e0c9af71a92730c406b082d0b57d9c1d0d",
+      "raw_caption": "A female interviewer reveals a distinct caring expression; cheekbones lightly pronounced.",
+      "clean_caption": "A woman reveals a expression; cheekbones lightly pronounced.",
+      "human_judgments": {
+        "emotion": "Contradicted",
+        "profession": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "053851.mp4",
+      "manifest_sha256": "03ca65e1a801b047b6093d6665ed1618aec53ddd5299524376e5e7a41bbbf8c8",
+      "raw_caption": "A female doctor speaks steadily, forehead creasing while her brows angle downward.",
+      "clean_caption": "A woman speaks steadily, forehead creasing while her brows angle downward.",
+      "human_judgments": {
+        "profession": "Not Verifiable",
+        "style": "Supported",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "style": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "053941.mp4",
+      "manifest_sha256": "6dce6ee78a8e9c6a1cbae74c0fba038589f8933a140d1b4fa309ed3321c7ce10",
+      "raw_caption": "A male interviewer maintaining a amplified disgust expression.",
+      "clean_caption": "A man appears on camera.",
+      "human_judgments": {
+        "emotion": "Contradicted",
+        "profession": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "054826.mp4",
+      "manifest_sha256": "21b0581ca47828e0b2a55f516121e3894a3515188da1aed62eb316af72646d26",
+      "raw_caption": "A male customer support agent talks as if teaching, sustaining a strong fearful expression without wavering, with emphasis where it matters.",
+      "clean_caption": "A man talks as if teaching.",
+      "human_judgments": {
+        "emotion": "Inferable (Name cue)",
+        "style": "Inferable (Name cue)",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "style": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "055335.mp4",
+      "manifest_sha256": "43a456718eb634ea6e3c71356d3d6d8988a208b86c28ee18d122a272dff91178",
+      "raw_caption": "A young woman exhibits a strong joyfulness expression, micro-smile present and cheeks rounded.",
+      "clean_caption": "A young woman exhibits a strong joyfulness expression, micro-smile present and cheeks rounded.",
+      "human_judgments": {
+        "emotion": "Supported",
+        "age": "Supported",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "age": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "055585.mp4",
+      "manifest_sha256": "efde9b1cc736b7f3d7167d0e558b0ac00c38aea6e4770fa2262034c04741f5ce",
+      "raw_caption": "A young woman reveals a sparkling caring expression; cheekbones lightly pronounced.",
+      "clean_caption": "A woman reveals a expression; cheekbones lightly pronounced.",
+      "human_judgments": {
+        "emotion": "Contradicted",
+        "age": "Contradicted",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "057049.mp4",
+      "manifest_sha256": "b491ff8260ead671410687f3bd96bc8ddb0dbd966d1d446320d8d64737880466",
+      "raw_caption": "A boy speaks and shakes his head side-to-side largely.",
+      "clean_caption": "A boy speaks and shakes his head side-to-side largely.",
+      "human_judgments": {
+        "style": "Contradicted",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "058982.mp4",
+      "manifest_sha256": "20d3b0da62e1118c2a5cc9a90a9814ffa1efa5bea93b3dcc3c6027ff170ceceb",
+      "raw_caption": "A female scientist speaks as if hosting, carrying a low-key fearful expression.",
+      "clean_caption": "A female scientist speaks.",
+      "human_judgments": {
+        "emotion": "Not Verifiable",
+        "profession": "Supported",
+        "style": "Inferable (Name cue)",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "profession": [
+          0.0,
+          3.0
+        ],
+        "style": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "059320.mp4",
+      "manifest_sha256": "dcda4e25591b1871e680f052e9976bcf43513d3832fd6b608a3e6562790e5a91",
+      "raw_caption": "A male athlete speaks in a low register, carrying a faint disgust expression from sentence to sentence, as the voice stays steady.",
+      "clean_caption": "A male athlete speaks.",
+      "human_judgments": {
+        "emotion": "Inferable (Name cue)",
+        "profession": "Supported",
+        "style": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "profession": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "059866.mp4",
+      "manifest_sha256": "7940e2759aab2f4c22a7fc4e46f91dfb43fb6f56e40b935e94449b80bbb81d69",
+      "raw_caption": "A male customer support agent talks in steady phrases, with a medium fearful demeanor.",
+      "clean_caption": "A man talks, with a medium fearful demeanor.",
+      "human_judgments": {
+        "emotion": "Supported",
+        "style": "Inferable (Name cue)",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "style": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "060621.mp4",
+      "manifest_sha256": "f4113e130222872cecac83214a68417ab8cb14f34991394b29707d39da71226b",
+      "raw_caption": "A female engineer emphasizes a word, the strong fearful tone evident.",
+      "clean_caption": "A woman emphasizes a word, the tone evident.",
+      "human_judgments": {
+        "emotion": "Contradicted",
+        "profession": "Not Verifiable",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "060708.mp4",
+      "manifest_sha256": "e2dbf970b35ea359ac0ab9008f96e241aec588a4ce1c59db3e983b56e9ade5f7",
+      "raw_caption": "A young man reveals a intense admiration expression with a gentle eye crinkle.",
+      "clean_caption": "A young man reveals a expression with a gentle eye crinkle.",
+      "human_judgments": {
+        "emotion": "Not Verifiable",
+        "age": "Supported",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "age": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "061343.mp4",
+      "manifest_sha256": "09f8fa35814bc17a1c4a4514c6c048dc7c231c0c4d818a6ac91a53692da864ee",
+      "raw_caption": "A gentleman speaks softly, holding a subtle surprise expression while choosing words carefully.",
+      "clean_caption": "A man speaks on camera.",
+      "human_judgments": {
+        "emotion": "Inferable (Name cue)",
+        "style": "Inferable (Name cue)",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "style": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "061460.mp4",
+      "manifest_sha256": "c26d2908fbe9c885ac69c41be43fe7de1e15c2a336abb53f1548fbaf9c6950f4",
+      "raw_caption": "A female doctor talks in concise lines, showing a evident caring expression between phrases, as the voice stays steady.",
+      "clean_caption": "A woman speaks on camera.",
+      "human_judgments": {
+        "emotion": "Not Verifiable",
+        "profession": "Not Verifiable",
+        "style": "Inferable (Name cue)",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "style": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "062633.mp4",
+      "manifest_sha256": "8b62f7761db4e43ceebb5cf6555084580360fc57f8dc836ceba6b4153db91c34",
+      "raw_caption": "An old woman talks with a gentle pace, holding a recognizable disappointment expression while choosing words, while keeping tone even.",
+      "clean_caption": "An old woman talks.",
+      "human_judgments": {
+        "emotion": "Contradicted",
+        "style": "Not Verifiable",
+        "age": "Supported",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "age": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "062806.mp4",
+      "manifest_sha256": "ba50e880f1c84d4ebbe2d49f0218ae003f8469361ec742dc0709c3f2f5a41708",
+      "raw_caption": "A young man speaks while pausing thoughtfully, carrying a understated anticipation expression from sentence to sentence, without rushing any line.",
+      "clean_caption": "A young man speaks.",
+      "human_judgments": {
+        "emotion": "Inferable (Name cue)",
+        "style": "Not Verifiable",
+        "age": "Supported",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "emotion": [
+          0.0,
+          3.0
+        ],
+        "age": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_1",
+      "trust_tier": "gold"
+    },
+    {
+      "video_id": "063947.mp4",
+      "manifest_sha256": "8d5ae2dd8fb68d382075170b3024cb6aa458b2129f409faf9bdc7747249aa06e",
+      "raw_caption": "A female teacher talks as if explaining, with a muted admiration expression steady on the face, and keeping diction clear.",
+      "clean_caption": "A woman talks, and keeping.",
+      "human_judgments": {
+        "emotion": "Contradicted",
+        "profession": "Not Verifiable",
+        "style": "Inferable (Name cue)",
+        "gender": "Supported"
+      },
+      "evidence_spans": {
+        "style": [
+          0.0,
+          3.0
+        ],
+        "gender": [
+          0.0,
+          3.0
+        ]
+      },
+      "annotator_id": "Annotator_2",
+      "trust_tier": "gold"
+    }
+  ]
+}
